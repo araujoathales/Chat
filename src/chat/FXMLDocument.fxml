@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="540.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="625.0" layoutY="430.0" onAction="#handleButtonAction" text="Send" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextArea layoutX="31.0" layoutY="408.0" prefHeight="76.0" prefWidth="557.0" />
+      
+      <CheckBox layoutX="59.0" layoutY="496.0" mnemonicParsing="false" text="All" />
+      <CheckBox layoutX="207.0" layoutY="496.0" mnemonicParsing="false" text="Private" />
+      <TextArea editable="false" layoutX="256.0" layoutY="72.0" prefHeight="300.0" prefWidth="396.0" />
+    </children>
+</AnchorPane>
