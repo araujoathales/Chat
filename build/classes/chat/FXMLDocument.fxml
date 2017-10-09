@@ -14,6 +14,6 @@
       
       <CheckBox layoutX="59.0" layoutY="496.0" mnemonicParsing="false" text="All" />
       <CheckBox layoutX="207.0" layoutY="496.0" mnemonicParsing="false" text="Private" />
-      <Label layoutX="255.0" layoutY="106.0" prefHeight="273.0" prefWidth="398.0" style="-fx-border-color: black;" text="Label" />
+      <TextArea editable="false" layoutX="256.0" layoutY="72.0" prefHeight="300.0" prefWidth="396.0" />
     </children>
 </AnchorPane>
