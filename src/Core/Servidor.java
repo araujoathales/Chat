@@ -5,6 +5,7 @@ import java.net.ServerSocket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 // Servidor
+//terror
 public class Servidor {
     public static void main(String[] args) {
         while(true){

@@ -4,11 +4,7 @@ import java.util.Map;
 
 public class GerenciadorCliente extends Thread{
     private Map<String, GerenciadorCliente> clientes;
-    
-    
-    
-    
-    
+    //terror
     
     public GerenciadorCliente(){
         
