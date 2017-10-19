@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package chat;
+package View;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -30,8 +30,8 @@ public class Chat extends Application {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        launch(args);
-    }
+    //public static void main(String[] args) {
+    //    launch(args);
+    //}
     
 }
